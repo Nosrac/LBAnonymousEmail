@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.kyleacarson.LaunchBar.action.AnonymousEmail</string>
+	<key>CFBundleName</key>
+	<string>Anonymous Email Address</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Kyle Carson</string>
+		<key>LBRequirements</key>
+		<string>Requires an active internet connection.</string>
+		<key>LBSummary</key>
+		<string> create permanent, anonymous email addresses (powered by http://notsharingmy.info) </string>
+		<key>LBTwitter</key>
+		<string>@kyleacarson</string>
+	</dict>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>string</string>
+			</array>
+			<key>LBRequiresArgument</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>default.js</string>
+			<key>LBReturnsResult</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>LBTextInputTitle</key>
+	<string>Anonymous Email Address</string>
+</dict>
+</plist>
